@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    width: auto;
+padding: auto;
+    overflow: hidden;
+    background-color: #2530ca;
+    margin-bottom: 49px;
+
+}
+
+.centrarheader {
+    width: 80%;
+    max-width: 8500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.centrartexto {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .logo {
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 170px;
+    float: left;
+}
+
+header nav {
+    float: right;
+    line-height: 170px;
+}
+
+header nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+header nav a:hover {
+    /*Efecto al estar encima del a  */
+    background-color: #050505;
+    border-radius: 50px;
+}
+
+.header2 {
+    position: fixed;
+    height: 95px;
+    width: 100%;
+}
+
+.header2 .logo {
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.header2 nav {
+    line-height: 100px;
+    overflow: hidden;
+}
+
+/*.centrartexto p{
+
+
+}*/
