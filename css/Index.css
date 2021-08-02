@@ -56,35 +56,38 @@ header nav a:hover {
   color: black;
 }
 
-.nombre {
-  font-size: 13pt;
-  font-style: italic;
+.borde:hover {
+  border: 2px solid #2e2d2d;
+  font-size: 17pt;
+  color: #1513ac;
 }
 
 .carta {
   width: 18%;
   min-height: 250px;
-  height: auto;
   float: left;
-  margin: 3%;
-  border: 5px solid;
+  align-content: center;
+  margin: 2%;
+  border: 3px solid #636161;
   text-align: center;
   margin-left: 7%;
   background-color: white;
-}
-
-.borde:hover {
-  border: 2px solid #242222;
-  font-size: 17pt;
-  color: #1513ac;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header_carta {
   padding-top: 1%;
-  height: 23pt;
-  background-color: #dfd2d2;
-  color: black;
+  height: 24pt;
+  background-color: #cccccc;
+  color: #000000;
 }
 
 .carta_texto {
+  margin-top: 30%;
+}
+
+.carta_buttom{
+  font-size: 19pt;
+  font-family: Arial, Helvetica, sans-serif;background-color: #63c0eb; color: #444343;margin-top: 4%;width: 90%;
+padding:0;
 }
