@@ -20,7 +20,7 @@ header {
 }
 
 .centrartexto {
-  width: 90%;
+  width: 88%;
   max-width: 8800px;
   margin: auto;
   overflow: visible;
@@ -63,9 +63,8 @@ header nav a:hover {
 }
 
 .carta {
-  width: 18%;
-  min-height: 250px;
-  float: left;
+  width: 22%;
+  height: 270pt;
   align-content: center;
   margin: 2%;
   border: 3px solid #636161;
@@ -73,21 +72,30 @@ header nav a:hover {
   margin-left: 7%;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  position: static;
+  float: left;
 }
 
 .header_carta {
-  padding-top: 1%;
-  height: 24pt;
+  padding-top: 2%;
+  height: 27pt;
   background-color: #cccccc;
   color: #000000;
 }
 
-.carta_texto {
-  margin-top: 30%;
+
+.carta_buttom {
+  font-size: 19pt;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #63c0eb;
+  color: #444343;
+  width: 88%;
+  padding: 0;
 }
 
-.carta_buttom{
-  font-size: 19pt;
-  font-family: Arial, Helvetica, sans-serif;background-color: #63c0eb; color: #444343;margin-top: 4%;width: 90%;
-padding:0;
+.carta_buttom:hover {
+  margin-top: 0.5%;
+  font-weight: bold;
+  font-size: 20pt;
+  opacity: 0.9;
 }
