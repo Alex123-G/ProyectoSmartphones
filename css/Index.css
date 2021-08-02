@@ -4,22 +4,19 @@
 }
 
 body {
-  background-color: #50aadf;
+  background-color: #ffffff;
 }
 
 header {
-  width: auto;
-  padding: auto;
   overflow: hidden;
   background-color: #242222;
-  margin-bottom: 41px;
+  margin-bottom: 40px;
+  height: 100pt;
 }
 
 .centrarheader {
   width: 80%;
-  max-width: 8500px;
   margin: auto;
-  overflow: hidden;
 }
 
 .centrartexto {
@@ -30,15 +27,16 @@ header {
 }
 
 header .logo {
-  color: #e6dedc;
-  font-size: 70px;
-  line-height: 170px;
+  color: #dacecc;
+  font-size: 80px;
+  line-height: 140px;
   float: left;
+  margin-left: -50pt;
 }
 
 header nav {
   float: right;
-  line-height: 170px;
+  line-height: 140px;
 }
 
 header nav a {
@@ -52,9 +50,10 @@ header nav a {
 }
 
 header nav a:hover {
-  /*Efecto al estar encima del a  */
-  background-color: #e6dedc;
+  /*Efecto al estar encima del a */
+  background-color: #ffffff;
   border-radius: 50px;
+  color: black;
 }
 
 .nombre {
@@ -63,19 +62,29 @@ header nav a:hover {
 }
 
 .carta {
-  width: 24%;
-  min-height: 270px;
+  width: 18%;
+  min-height: 250px;
   height: auto;
   float: left;
-  margin: 4%;
-  border: 4px dotted;
-  text-align: left;
-  margin-left: 3%;
-  padding-left: 17px;
+  margin: 3%;
+  border: 5px solid;
+  text-align: center;
+  margin-left: 7%;
+  background-color: white;
 }
 
 .borde:hover {
   border: 2px solid #242222;
   font-size: 17pt;
-  color: white;
+  color: #1513ac;
+}
+
+.header_carta {
+  padding-top: 1%;
+  height: 23pt;
+  background-color: #dfd2d2;
+  color: black;
+}
+
+.carta_texto {
 }
