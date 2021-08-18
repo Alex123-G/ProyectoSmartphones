@@ -7,24 +7,44 @@
     charset="utf-8">
     <title>Catálogo de Celulares</title>
     <link rel="stylesheet" type="text/css" href="css/Index.css" />
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin=" anonymous"
+    ></script>
   </head>
 
   <body>
-    <header>
-      <div class="centrarheader">
-        <nav>
-          <a href="CelulareHuawei/celulareHuawei.html">Huawei</a>
-          <a href="CelulareLG/celularesLg.html">Lg </a>
-          <a href="CelulareSamsung/celularesSamsung.html">Samsung</a>
-  
-          <a href="CelulareXiaomi/celularesXiaomi.html">Xiaomi</a>
-        </nav>
-        <div class="logo">Compra Ya!!</div>
-      </div>
+    <header class="header">
+     
+      <nav class="nav">
+        <a class="logo nav-link">Compra Ya!!</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Inicio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Marcas</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Sobre Nosotros</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Contactanos</a>
+          </li>
+        </ul>
+      </nav>
+    
     </header>
-
+<br>
+<br>
 <section>
-    <h1  style="margin-left: 16%" id="titulo"><u>Catálogo de Celulares:</u></h1>
+  <div  class="contenedor_titulo">  
+  <h1  id="titulo"><u>Catálogo de Celulares:</u></h1>
+</div>
+
     <div class="contenedor_cartas">
       <div class="carta" id="1">
         <div class="header_carta">
@@ -32,15 +52,14 @@
         </div>
 
         <img src="css/img/xiaomi-redmi9a-azul.png " alt="" style="width: 59%;height: 48; " class="carta_img">
-
         <div class="carta_texto">
         <em  class="borde"> Nombre: Redmi 9A</em>
         <br/>
-        <em>Almacenamiento:</em><em class="borde">xxx</em>
+        <em class="borde">Almacenamiento: xxx</em>
         <br/>
-        <em>Color: </em><em class="borde">xxx</em>
+        <em class="borde"> Color: xxx </em>
         <br/>
-        <em > Cámara:</em><em class="borde">xxx</em> 
+        <em class="borde"> Cámara: xxx</em> 
         <input type="button"  value="Comprar" class="carta_buttom" id="btn_comprar">
       
       </div>
@@ -52,7 +71,7 @@
        <h2>Xiaomi</h2>
       </div>
 
-      <img src="css/img/vista_frontal_Redmi9__green80800.png" alt="" style="width: 59%;height: 48; " class="carta_img">
+      <img src="css/img/vista_frontal_Redmi9__green80800.png" alt="" style="width: 59%;height: 48;" class="carta_img">
       <div class="carta_texto">
       <em >Nombre: </em><em class="borde">Redmi9</em>
       <br/>
@@ -185,7 +204,7 @@
    <h2>Samsung</h2>
   </div>
 
-  <img src="css/img/moto-7i-e-power.png " alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
+  <img src="css/img/Vista_400x400_Motog5G.png" alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
   <div class="carta_texto">
   <em >Nombre: </em><em class="borde">Moto 7i </em>
   <br/>
@@ -204,7 +223,7 @@
    <h2>Samsung</h2>
   </div>
 
-  <img src="css/img/moto-7i-e-power.png " alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
+  <img src="css/img/vista_frontal_Redmi9__green80800.png" alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
   <div class="carta_texto">
   <em >Nombre: </em><em class="borde">Moto 7i </em>
   <br/>
@@ -222,7 +241,7 @@
    <h2>Samsung</h2>
   </div>
 
-  <img src="css/img/moto-7i-e-power.png " alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
+  <img src="css/img/vista_frontal_Redmi9__green80800.png" alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
   <div class="carta_texto">
   <em >Nombre: </em><em class="borde">Moto 7i </em>
   <br/>
@@ -240,7 +259,7 @@
    <h2 >Motorola</h2>
   </div>
 
-  <img src="css/img/moto-7i-e-power.png " alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
+  <img src="css/img/Vista_frontal_GalaxyA32.png " alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
   <div class="carta_texto">
   <em >Nombre: </em><em class="borde">Moto 7i </em>
   <br/>
@@ -249,7 +268,7 @@
   <em>Color: </em><em class="borde">xxx</em>
   <br/>
   <em>Cámara:</em><em class="borde">xxx</em>
-  <input type="button" value="dd" class="carta_buttom" id="btn_comprar1">
+  <input type="button" value="Comprar" class="carta_buttom" id="btn_comprar1">
 </div>
 
 </div>
