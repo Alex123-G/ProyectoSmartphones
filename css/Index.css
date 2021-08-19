@@ -9,11 +9,11 @@ body {
 }
 
 /* Estilos del Header */
-
+/* < */
 .header {
   background-color: #c30e0e;
   outline: 5px solid #a13232;
-  height: 80px;
+  height: 5rem;
   /* position: fixed; */
   width: 100%;
   top: 0;
@@ -23,143 +23,132 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px;
-}
-
-.nav-link {
-  color: #000;
-  text-decoration: none;
+  margin: 0 1.25rem;
 }
 
 .logo {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: bold;
-  padding-left: 17px;
-  line-height: 80px;
+  padding-left: 1.0625rem;
+  line-height: 5rem;
   color: #ffff;
 }
 
 .nav-menu {
   display: flex;
-  /* margin-right: 40px; */
   list-style: none;
   margin-left: 0;
-  margin-right: 18px;
+  margin-right: 1.125rem;
   font-weight: bold;
 }
 
 .nav-menu-item {
-  font-size: 20px;
-  line-height: 75px;
+  font-size: 1.25rem;
+  line-height: 4.6875rem;
   text-transform: uppercase;
   width: max-content;
-  padding: 4px;
+  padding: 0.25rem;
   display: inline-block;
 }
 
 .nav-menu-link {
-  padding: 8px 12px;
-  border-radius: 3px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.1875rem;
   color: #ffff;
+  text-decoration: none;
 }
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
   background-color: #ffff;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   color: black;
-  margin: 10px;
-  transition: 0.3;
+  margin: 0.625rem;
+  transition: 0.3s;
 }
 
-/* TOGGLE */
+/* btn_menu_hamburguesa */
 .nav-toggle {
   color: white;
   background: none;
   border: none;
-  font-size: 35px;
+  font-size: 2.1875rem;
   /* padding-right: 2px; */
   /* line-height: 20px; */
   cursor: pointer;
   display: none;
 }
 
-/* Contenedor Cartas */
+/*Estilos para el Contenedor de las Cartas */
 .container {
-  width: 84%;
-  margin: 40px auto;
-  background-color: #f9f9f9;
+  width: 89%;
+  margin: 2.6rem auto;
 }
 
 .contenedor_titulo {
   text-align: center;
-  font-size: 17pt;
+  font-size: 18px;
   color: black;
 }
 
 .contenedor_cartas {
+  border: 1px solid #1a1919;
+  border-radius: 24px;
+  background-color: #e9eaeb;
+  flex-direction: row;
+  margin: 0.5rem auto;
+  max-width: 66.875rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  flex-direction: row;
-  margin: 10px auto;
-  max-width: 1070px;
 }
 
 .borde:hover {
-  font-size: 14pt;
+  font-size: 0.875rem;
   color: #0d0abe;
-  padding-left: 2pt;
+  padding-left: 0.125rem;
 }
 
 .header_carta {
-  /* padding-top: 2%;
-  height: 27pt;
-  background-color: #cccccc;
-  color: #000000;
-
-  /* border: 2px solid #636161; */
-  outline: 2px solid #636161;
+  background-color: #f8f8f8;
+  border-bottom: 0.125rem solid #e2a7a7;
+  border-radius: 5px;
   text-align: center;
-  padding: 8px 10px;
+  padding: 0.5rem 0.625rem;
   color: #000;
-  font-size: 13pt;
+  font-size: 0.8125rem;
   font-weight: bold;
 }
 
 .carta {
-  /* min-width: 140px; */
-  width: 255px; /*Si colocas % en el widht o el height  se va a estar reduciendo su tamaño segun la pantanlla PERO no funcionar el flex wrap*/
-  height: 254pt;
-  margin: 25px 37px;
-  border: 2px solid #636161;
+  width: 15.9375rem; /*Si colocas % en el widht o el height  se va a estar reduciendo su tamaño segun la pantanlla PERO no funcionar el flex wrap*/
+  height: 20.7rem;
+  margin: 1.28rem 2.2rem;
+  border: 0.125rem solid #e2a7a7;
+  border-radius: 7px;
   text-align: center;
-  left: 7px;
 }
 
 .carta_cuerpo {
-  /* position: absolute;
-  left: 20%;
-  top: 215px; */
-  padding: 5px 20px;
+  padding: 0.3125rem 1rem;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.0625rem;
 }
 
 .carta_img {
-  padding-top: 5pt;
+  padding-top: 0.4375rem;
 }
 
 .carta_buttom {
-  font-size: 20pt;
+  font-size: 16pt;
   display: block;
   color: #fff;
   text-align: center;
   background-color: red;
-  width: 200px;
+  width: 12.5rem;
   margin: auto;
-  margin-top: 4px;
-  padding: 0 5px;
+  margin-top: 0.25rem;
+  padding: 0 0.3125rem;
 }
 
 .carta_buttom:hover {
@@ -171,6 +160,7 @@ body {
   padding: 0 0px;
 }
 
+/* Diseño Responsive */
 @media (max-width: 1024px) {
   .header {
     height: 66px;
