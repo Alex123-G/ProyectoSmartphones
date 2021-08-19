@@ -1,157 +1,280 @@
 <!DOCTYPE html>
-
 <html lang="es">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="text/html" http-equiv="content-type" charset="utf-8" />
     <title>Catálogo de Celulares</title>
     <link rel="stylesheet" type="text/css" href="css/Index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin=" anonymous"
+    ></script>
   </head>
 
-  
   <body>
-    <header>
-      <div class="centrarheader">
-        <div class="logo">Compra Ya!!</div>
-        <nav>
-          <a href="CelulareHuawei/celulareHuawei.html">Huawei</a>
-          <a href="CelulareLG/celularesLg.html">Lg </a>
-          <a href="CelulareSamsung/celularesSamsung.html">Samsung</a>
-  
-          <a href="CelulareXiaomi/celularesXiaomi.html">Xiaomi</a>
-        </nav>
-      </div>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo nav-link">Compra Ya!!</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Inicio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Marcas</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Sobre Nosotros</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Contactanos</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <section>
-    <h1  style="margin-left: 16%"><u>Catálogo de Celulares:</u></h1>
-    <div class="contenedor_cartas">
-     
-      <div class="carta">
-        <div class="header_carta">
-         <h2>Samsung</h2>
+    <section class="container">
+      <div class="contenedor_titulo">
+        <h1 id="titulo"><u>Catálogo de Celulares:</u></h1>
+      </div>
+
+      <div class="contenedor_cartas">
+        <div class="carta" id="1">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
+
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+
         </div>
 
-        <img src="css/img/xiaomi-redmi9a-azul.png " alt="" style="width: 59%;height: 48; " class="carta_img">
+        <div class="carta" id="2">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
 
-        <div class="carta_texto">
-        <em >Nombre: </em><em class="borde">Redmi 9A</em>
-        <br/>
-        <em>Almacenamiento:</em><em class="borde">xxx</em>
-        <br/>
-        <em>Color: </em><em class="borde">xxx</em>
-        <br/>
-        <em > Cámara:</em><em class="borde">xxx</em>
-        <br />
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+        </div>
+
+        <div class="carta" id="2">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
+
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+        </div>
+
+        <div class="carta" id="2">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
+
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+        </div>
+
+        <div class="carta" id="3">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
+
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+        </div>
+
+        <div class="carta" id="4">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
+
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+        </div>
+
+        <div class="carta" id="5">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
+
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+        </div>
+
+        <div class="carta" id="6">
+          <div class="header_carta">
+            <h2>Samsung</h2>
+          </div>
+
+          <img
+            src="css/img/xiaomi-redmi9a-azul.png "
+            alt=""
+            style="width: 59%; height: 48"
+            class="carta_img"
+          />
+          <div class="carta_cuerpo">
+            <em class="borde"> Nombre: Redmi 9A</em>
+            <br />
+            <em class="borde">Almacenamiento: xxx</em>
+            <br />
+            <em class="borde"> Color: xxx </em>
+            <br />
+            <em class="borde"> Cámara: xxx</em>
+            <input
+              type="button"
+              value="Comprar"
+              class="carta_buttom"
+              id="btn_comprar"
+            />
+          </div>
+        </div>
       </div>
-        <input type="button" value="Comprar" class="carta_buttom">
-      
-    </div>
-
-    <div class="carta">
-      <div class="header_carta">
-       <h2>Samsung</h2>
-      </div>
-
-      <img src="css/img/vista_frontal_Redmi9__green80800.png" alt="" style="width: 59%;height: 48; " class="carta_img">
-      <div class="carta_texto">
-      <em >Nombre: </em><em class="borde">Redmi9</em>
-      <br/>
-      <em>Almacenamiento:</em><em class="borde">xxx</em>
-      <br/>
-      <em>Color: </em><em class="borde">xxx</em>
-      <br/>
-      <em>Cámara:</em><em class="borde">xxx</em>
-      <br />
-    
-      
-    </div>
-    <input type="button" value="Comprar" class="carta_buttom">
-  </div>
-
-  <div class="carta">
-    <div class="header_carta">
-     <h2>Samsung</h2>
-    </div>
-
-    <img src="css/img/Vista_frontal_GalaxyA32.png" alt="" style="width: 59%;height: 48; " class="carta_img">
-    <div class="carta_texto">
-    <em >Nombre: </em><em class="borde">GalaxyA32</em>
-    <br/>
-    <em>Almacenamiento:</em><em class="borde">xxx</em>
-    <br/>
-    <em>Color: </em><em class="borde">xxx</em>
-    <br/>
-    <em>Cámara:</em><em class="borde">xxx</em>
-    <br />
-  
-    
-  </div>
-  <input type="button" value="Comprar" class="carta_buttom">
-</div>
-
-<div class="carta">
-  <div class="header_carta">
-   <h2>Samsung</h2>
-  </div>
-
-  <img src="css/img/Vista_400x400_RedmiNote9T.png" alt="" style="width: 59%;height: 48; " class="carta_img">
-  <div class="carta_texto" style="left: 19%;">
-  <em >Nombre: </em><em class="borde">RedmiNote9T</em>
-  <br/>
-  <em>Almacenamiento:</em><em class="borde">xxx</em>
-  <br/>
-  <em>Color: </em><em class="borde">xxx</em>
-  <br/>
-  <em>Cámara:</em><em class="borde">xxx</em>
-  <br />
-
-  
-</div>
-<input type="button" value="Comprar" class="carta_buttom">
-</div>
-
-<div class="carta">
-  <div class="header_carta">
-   <h2>Samsung</h2>
-  </div>
-
-  <img src="css/img/Vista_400x400_Motog5G.png " alt="" style="width: 59%;height: 48; " class="carta_img">
-  <div class="carta_texto">
-  <em >Nombre: </em><em class="borde">Moto 5G </em>
-  <br/>
-  <em>Almacenamiento:</em><em class="borde">xxx</em>
-  <br/>
-  <em>Color: </em><em class="borde">xxx</em>
-  <br/>
-  <em>Cámara:</em><em class="borde">xxx</em>
-  <br />
-
-  
-</div>
-<input type="button" value="Comprar" class="carta_buttom">
-</div>
-
-<div class="carta">
-  <div class="header_carta">
-   <h2>Samsung</h2>
-  </div>
-
-  <img src="css/img/moto-7i-e-power.png " alt="" style="width: 59%;height: 48; padding-top: 3;" class="carta_img" >
-  <div class="carta_texto">
-  <em >Nombre: </em><em class="borde">Moto 7i </em>
-  <br/>
-  <em>Almacenamiento:</em><em class="borde">xxx</em>
-  <br/>
-  <em>Color: </em><em class="borde">xxx</em>
-  <br/>
-  <em>Cámara:</em><em class="borde">xxx</em>
-  <br />
-
-  
-</div>
-<input type="button" value="Comprar" class="carta_buttom">
-</div>
-
-      <script src="javaScript.js"></script>
     </section>
-    </body>
+    <script src="javaScript.js"></script>
+  </body>
+
 </html>
