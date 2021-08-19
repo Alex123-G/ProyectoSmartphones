@@ -1,113 +1,18 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 body {
-  background-color: white;
+  background-color: #f9f9f9;
 }
 
-/* header nav {
-  padding: 10px;
-  display: inline-block;
-  margin-left: 550px;
-  background-color: blue;
-  line-height: 120px;
-} */
-/* 
-header nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 15px;
-  font-size: 21px;
-  font-weight: bold;
-  right: -10px;
-} */
-
-/* header nav a:hover {
-  background-color: #ffff;
-  border-radius: 10px;
-  color: black;
-  margin: 10px;
-} */
-
-.contenedor_titulo {
-  font-size: 17pt;
-  padding-left: 40px;
-  margin: auto;
-  /* min-width: 100px; */
-  max-width: 1060px;
-}
-
-.contenedor_cartas {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  overflow: visible;
-  max-width: 1090px;
-  min-width: 200px;
-  align-content: space-between;
-}
-
-.borde:hover {
-  font-size: 14pt;
-  color: #0d0abe;
-  padding-left: 2pt;
-}
-
-.header_carta {
-  padding-top: 2%;
-  height: 27pt;
-  background-color: #cccccc;
-  color: #000000;
-  outline: 3px solid #636161;
-}
-
-.carta {
-  padding: 0px;
-  min-width: 140px;
-  width: 260px;
-  height: 254pt;
-  align-content: center;
-  margin: 25px 36px;
-  border: 3px solid #636161;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-}
-
-.carta_texto {
-  position: absolute;
-  left: 20%;
-  top: 215px;
-}
-
-.carta_img {
-  padding-top: 10pt;
-}
-
-.carta_buttom {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20pt;
-  background-color: #990a0a;
-  color: #ffffff;
-  margin-top: 24px;
-  left: -20px;
-  position: absolute;
-  width: 190px;
-  border-radius: 8px;
-}
-
-.carta_buttom:hover {
-  font-size: 22pt;
-  transition: 0.3s;
-  background-color: #aa1717;
-  border: 2px normal #000;
-}
-/*-----------------*/
+/* Estilos del Header */
 
 .header {
   background-color: #c30e0e;
+  outline: 5px solid #a13232;
   height: 80px;
   /* position: fixed; */
   width: 100%;
@@ -172,23 +77,110 @@ header nav a {
   color: white;
   background: none;
   border: none;
-  font-size: 37px;
-  /* padding: 0 20px; */
+  font-size: 35px;
+  /* padding-right: 2px; */
   /* line-height: 20px; */
   cursor: pointer;
   display: none;
 }
 
-/* MOBILE */
+/* Contenedor Cartas */
+.container {
+  width: 84%;
+  margin: 40px auto;
+  background-color: #f9f9f9;
+}
 
-@media (max-width: 98s0px) {
+.contenedor_titulo {
+  text-align: center;
+  font-size: 17pt;
+  color: black;
+}
+
+.contenedor_cartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 10px auto;
+  max-width: 1070px;
+}
+
+.borde:hover {
+  font-size: 14pt;
+  color: #0d0abe;
+  padding-left: 2pt;
+}
+
+.header_carta {
+  /* padding-top: 2%;
+  height: 27pt;
+  background-color: #cccccc;
+  color: #000000;
+
+  /* border: 2px solid #636161; */
+  outline: 2px solid #636161;
+  text-align: center;
+  padding: 8px 10px;
+  color: #000;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.carta {
+  /* min-width: 140px; */
+  width: 255px; /*Si colocas % en el widht o el height  se va a estar reduciendo su tamaño segun la pantanlla PERO no funcionar el flex wrap*/
+  height: 254pt;
+  margin: 25px 37px;
+  border: 2px solid #636161;
+  text-align: center;
+  left: 7px;
+}
+
+.carta_cuerpo {
+  /* position: absolute;
+  left: 20%;
+  top: 215px; */
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.carta_img {
+  padding-top: 5pt;
+}
+
+.carta_buttom {
+  font-size: 20pt;
+  display: block;
+  color: #fff;
+  text-align: center;
+  background-color: red;
+  width: 200px;
+  margin: auto;
+  margin-top: 4px;
+  padding: 0 5px;
+}
+
+.carta_buttom:hover {
+  font-size: 20pt;
+  transition: 0.7s;
+  background-color: #aa1717;
+  border: 2px normal #000;
+  margin-top: 4px;
+  padding: 0 0px;
+}
+
+@media (max-width: 1024px) {
   .header {
-    height: 58px;
+    height: 66px;
   }
 
   .logo {
+    padding-top: 2px;
     font-size: 30px;
-    line-height: 60px;
+    padding-left: 5px;
+    line-height: 69px;
   }
 
   .nav-menu {
