@@ -78,6 +78,19 @@ body {
   cursor: pointer;
   display: none;
 }
+/* Estilo para el banner */
+.container_banner {
+  display: flex;
+  /* Estas 2 propiedades se usarian para centrar la imagen,pero se ve mejor con su ancho completo */
+  /* justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 95%; */
+}
+.img__banner {
+  height: 540px;
+  width: 100%;
+}
 
 /*Estilos para el Contenedor de las Cartas */
 .container {
@@ -163,7 +176,7 @@ body {
 /* Diseño Responsive */
 @media (max-width: 1024px) {
   .header {
-    height: 66px;
+    height: 74px;
   }
 
   .logo {
@@ -211,4 +224,10 @@ body {
   .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   }
+
+  .img__banner {
+    height: 100%;
+    width: 100%;
+  }
+  
 }
